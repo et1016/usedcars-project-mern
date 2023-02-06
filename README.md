@@ -7,10 +7,10 @@
 ![](https://i.imgur.com/yOreVgW.jpg)
 
 - API
-![](https://i.imgur.com/gzQ16RW.png)
+![](https://i.imgur.com/DZi8B5N.png)
 
 - 輪播圖
-![](https://i.imgur.com/A0lgVQB.png)
+![](https://i.imgur.com/vNNZqb0.png)
 
 - Modal
 ![](https://i.imgur.com/QksX5xm.png)
@@ -37,7 +37,9 @@
 
 - 提供使用者註冊及登入
 - 管理員帳號可以建立車籍資料
-- 購物車系統及結帳頁面並將資料儲存至 localStorage
+- 將商品加入至購物車
+- 購物車結帳頁面
+- 將購物車資料儲存至 localStorage
 - 提供使用者搜尋車輛
 - Google Map 嵌入
 
