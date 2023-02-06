@@ -29,7 +29,7 @@ app.use("/api/user", authRoute);
 app.use("/api/car", carRoute);
 
 const port = process.env.PORT || 8080;
-// 在 Render.com 當中它會自動設定 process.env.PORT，而且它是浮動的。
+// 在 cyclic 當中它會自動設定 process.env.PORT，而且它是浮動的。
 // || = 如果沒有 process.env.PORT 就執行 8080。
 
 app.listen(port, () => {
