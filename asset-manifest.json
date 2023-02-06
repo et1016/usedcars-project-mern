@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/usedcars-project-mern/static/css/main.0e35fe43.css",
+    "main.js": "/usedcars-project-mern/static/js/main.b6d61c42.js",
+    "static/media/benz.jpg": "/usedcars-project-mern/static/media/benz.a83a2efad30d026225bd.jpg",
+    "static/media/audia7sportback.png": "/usedcars-project-mern/static/media/audia7sportback.c3eece6b2cbce6d1eb7c.png",
+    "static/media/audi.jpg": "/usedcars-project-mern/static/media/audi.3f204338b6386250a330.jpg",
+    "static/media/audia4.png": "/usedcars-project-mern/static/media/audia4.ebf5de8da16281162ff6.png",
+    "static/media/cars.jpg": "/usedcars-project-mern/static/media/cars.ed995418f0fcb27fbb04.jpg",
+    "static/media/bmwx6.png": "/usedcars-project-mern/static/media/bmwx6.066d3cbfa127d40e582c.png",
+    "static/media/bmw3.png": "/usedcars-project-mern/static/media/bmw3.49ee0583183614a8eb5d.png",
+    "static/media/telephone.png": "/usedcars-project-mern/static/media/telephone.fb244201058d6b0c101c.png",
+    "static/media/vclass.png": "/usedcars-project-mern/static/media/vclass.d0f43dd6ee9340aa36f8.png",
+    "static/media/glecoupe.png": "/usedcars-project-mern/static/media/glecoupe.a1c0303b216bc02fe7e9.png",
+    "index.html": "/usedcars-project-mern/index.html",
+    "main.0e35fe43.css.map": "/usedcars-project-mern/static/css/main.0e35fe43.css.map",
+    "main.b6d61c42.js.map": "/usedcars-project-mern/static/js/main.b6d61c42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e35fe43.css",
+    "static/js/main.b6d61c42.js"
+  ]
+}
