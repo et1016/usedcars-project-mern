@@ -1,0 +1,76 @@
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  .filter {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-background {
+    width: 880px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    .modal-background-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px;
+      p {
+        font-size: 22px;
+        color: gray;
+        cursor: pointer;
+      }
+    }
+    iframe {
+      position: absolute;
+      bottom: 0;
+      border-radius: 10px;
+    }
+  }
+}
+.modal-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 18px;
+      height: 18px;
+      margin-top: 0.5rem;
+      margin-right: 5px;
+    }
+    p {
+      font-size: 12px;
+      margin-top: 0.5rem;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    p:hover {
+      color: rgb(255, 132, 0);
+    }
+  }
+  img {
+    cursor: pointer;
+  }
+}

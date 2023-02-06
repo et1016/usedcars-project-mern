@@ -1,0 +1,42 @@
+.location-background {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .location-left {
+    margin-right: 5rem;
+    img {
+      margin-bottom: 3.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      color: rgb(173, 173, 173);
+      margin-bottom: 1rem;
+    }
+  }
+  iframe {
+    html {
+      body {
+        background: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:1020px) {
+  .location-background {
+    flex-direction: column;
+    .location-left {
+      margin-right: 0;
+      img {
+        margin-bottom: 1.5rem;
+      }
+    }
+    iframe {
+      width: 93%;
+    }
+  }
+}
