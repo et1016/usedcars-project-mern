@@ -1,0 +1,31 @@
+.search-background {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f4f3;
+  padding: 10rem;
+  .search {
+    .search-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media screen and(max-width:670px) {
+  .search-background {
+    .search {
+      margin-top: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        min-width: 280px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
+
+@import "./_Nav.scss";
+@import "./_Homepage.scss";
+@import "./_VehicleInventory.scss";
+@import "./_VehicleCarousel.scss";
+@import "./_VehicleCarouselCard.scss";
+@import "./_LocationShow.scss";
+@import "./_GoogleMap.scss";
+@import "./_Footer.scss";
+@import "./_Admin.scss";
+@import "./_Search.scss";
+@import "./_SearchCard.scss";
+@import "./_CartIcon.scss";
+@import "./_CartDropdown.scss";
+@import "./_CartItem.scss";
+@import "./_Checkout.scss";
+@import "./_CheckoutItem.scss";
+@import "./_Register.scss";

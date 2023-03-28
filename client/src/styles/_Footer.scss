@@ -1,0 +1,22 @@
+.footer-backgorund {
+  width: 100%;
+  height: 100%;
+  background-color: #6b6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  p {
+    color: white;
+    margin-right: 5rem;
+  }
+}
+
+@media screen and(max-width:707px) {
+  .footer-backgorund {
+    flex-direction: column;
+    p {
+      margin-right: 0;
+    }
+  }
+}
