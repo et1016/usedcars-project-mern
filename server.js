@@ -28,6 +28,10 @@ app.use(cors());
 app.use("/api/user", authRoute);
 app.use("/api/car", carRoute);
 
-app.listen(8080, () => {
-  console.log(`Server is running on port 8080.`);
+const port = process.env.PORT || 8080;
+// 在 Cyclic 當中它會自動設定 process.env.PORT，而且它是浮動的。
+// || = 如果沒有 process.env.PORT 就執行 8080。
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}.`);
 });
