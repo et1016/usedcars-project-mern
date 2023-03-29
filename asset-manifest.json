@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/usedcars-project-mern/static/css/main.0e35fe43.css",
-    "main.js": "/usedcars-project-mern/static/js/main.806c5ce1.js",
+    "main.js": "/usedcars-project-mern/static/js/main.38560afd.js",
     "static/media/benz.jpg": "/usedcars-project-mern/static/media/benz.a83a2efad30d026225bd.jpg",
     "static/media/audia7sportback.png": "/usedcars-project-mern/static/media/audia7sportback.c3eece6b2cbce6d1eb7c.png",
     "static/media/audi.jpg": "/usedcars-project-mern/static/media/audi.3f204338b6386250a330.jpg",
@@ -14,10 +14,10 @@
     "static/media/glecoupe.png": "/usedcars-project-mern/static/media/glecoupe.a1c0303b216bc02fe7e9.png",
     "index.html": "/usedcars-project-mern/index.html",
     "main.0e35fe43.css.map": "/usedcars-project-mern/static/css/main.0e35fe43.css.map",
-    "main.806c5ce1.js.map": "/usedcars-project-mern/static/js/main.806c5ce1.js.map"
+    "main.38560afd.js.map": "/usedcars-project-mern/static/js/main.38560afd.js.map"
   },
   "entrypoints": [
     "static/css/main.0e35fe43.css",
-    "static/js/main.806c5ce1.js"
+    "static/js/main.38560afd.js"
   ]
 }
