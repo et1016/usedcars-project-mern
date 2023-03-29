@@ -47,6 +47,7 @@
 
 - JavaScript
 - React.js
+- Redux
 - Axios
 - Node.js
 - Express.js
@@ -55,6 +56,7 @@
 
 <h2>作品說明</h2>
 
+- 使用 Redux 狀態管理工具建立購物車
 - 使用 RWD 響應至不同裝置上
 - 使用 Material-UI 和 SCSS 設計樣式
 - 註冊密碼經加密處理
