@@ -1,5 +1,7 @@
-import React, { useState, useContext, useEffect } from "react";
-import { CartContext } from "./components/CartContext";
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { selectCartItems } from "./store/cart/cart.selector";
+import { addLocalCartItem } from "./store/cart/cart.action";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/navigation";
 import Homepage from "./routes/homepage";
@@ -17,9 +19,17 @@ const App = () => {
   const [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
   const [cart, setCart] = useState(CartService.getCartLocalStorage());
 
-  const { setCartItems } = useContext(CartContext);
+  const dispatch = useDispatch();
 
-  useEffect(() => setCartItems(cart), [cart]);
+  const cartItems = useSelector(selectCartItems);
+
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems]);
+
+  useEffect(() => {
+    dispatch(addLocalCartItem(cart));
+  }, [cart]);
 
   return (
     <div>

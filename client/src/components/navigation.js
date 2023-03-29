@@ -1,6 +1,7 @@
-import React, { useState, useRef, useContext } from "react";
+import React, { useState, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { CartContext } from "./CartContext";
+import { useSelector } from "react-redux";
+import { selectIsCartOpen } from "../store/cart/cart.selector";
 import logo from "../Assets/logo.png";
 import search from "../Assets/search.png";
 import CartIcon from "./cart-icon";
@@ -9,7 +10,6 @@ import AuthService from "../services/auth.service";
 
 const Nav = (props) => {
   const { currentUser, setCurrentUser } = props;
-  const { isCartOpen } = useContext(CartContext);
 
   const [navColor, updateNavbar] = useState(false);
   const [searchData, setSearchData] = useState("");
@@ -19,6 +19,8 @@ const Nav = (props) => {
   const pathname = useLocation().pathname;
 
   const inputRef = useRef(null);
+
+  const isCartOpen = useSelector(selectIsCartOpen);
 
   const scrollHandler = () => {
     if (window.scrollY >= 20) {

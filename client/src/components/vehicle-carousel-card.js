@@ -1,16 +1,19 @@
-import React, { useContext } from "react";
-import { CartContext } from "./CartContext";
+import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { selectCartItems } from "../store/cart/cart.selector";
+import { addItemToCart } from "../store/cart/cart.action";
 import swipershoppingcart from "../Assets/swipershoppingcart.png";
 import LocationShow from "./location-show";
 
 const VehicleCarouselCard = ({ carData }) => {
   const navigate = useNavigate();
 
-  const { addItemToCart } = useContext(CartContext);
+  const dispatch = useDispatch();
 
-  const addCarToCartHandler = () => addItemToCart(carData);
+  const cartItems = useSelector(selectCartItems);
 
+  const addCarToCartHandler = () => dispatch(addItemToCart(cartItems, carData));
   return (
     <div className="carousel-card">
       <div className="p-container">
