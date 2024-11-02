@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://usedcars-project-mern.onrender.com/api/car";
+const API_URL = "https://host-usedcars-project-mern.onrender.com/api/car";
 
 class CarsService {
   carsMaterial(
