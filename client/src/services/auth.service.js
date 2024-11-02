@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://creepy-puce-apron.cyclic.app/api/user";
+const API_URL = "https://usedcars-project-mern.onrender.com/api/user";
 
 class AuthService {
   register(username, email, password) {
